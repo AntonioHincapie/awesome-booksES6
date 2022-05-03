@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" rel="stylesheet" />
+    <title>AwesomeBooks</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <h2 class="logo">Awesome Books</h2>
+        <ul class="navBar">
+          <li><a id="booksBtn" href="#">List</a></li>
+          <li><a id="addbookBtn" href="#">Add new</a></li>
+          <li><a id="contactBtn" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="clock">
+        <div id="date"></div>
+        <div id="clock"></div>
+      </div>
+      <div id="container">
+        <h2>All awesome books</h2>
+        <div id="books"></div>
+      </div>
+      <form id="addbook">
+        <h2>Add a new book</h2>
+        <div>
+          <label for="titulo"></label>
+          <input type="text" id="titulo" placeholder="Title" />
+        </div>
+        <div>
+          <label for="autor"></label>
+          <input type="text" id="autor" placeholder="Author" />
+        </div>
+        <button id="btn">Add</button>
+      </form>
+      <div id="contact">
+        <h2>Contact information</h2>
+        <br />
+        <p>
+          Do have any questions or just want to say "Hello"? You can reach out
+          to us!
+        </p>
+        <br />
+        <ul>
+          <li>Our email: mail@mail.com</li>
+          <li>Our telephone number: +100043586534422</li>
+          <li>Our addres: StreetName 22, 84503 City, Country</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Copyright 2022,
+        <a
+          href="https://github.com/AntonioHincapie/awesome-books/blob/main/MIT.md"
+          >[MIT License]</a
+        >
+        Dummy website only for educational purposes, based on the wireframe of
+        Microverse.
+      </p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./modules/clock.js"></script>
+    <script type="module" src="./modules/libro.js"></script>
+    <script type="module" src="./modules/variables.js"></script>
+  </body>
+</html>

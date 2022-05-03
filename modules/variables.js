@@ -1,0 +1,11 @@
+export const booksBtn = document.getElementById('booksBtn');
+export const addBookbtn = document.getElementById('addbookBtn');
+export const contactBtn = document.getElementById('contactBtn');
+export const containerBooks = document.getElementById('container');
+export const books = document.getElementById('books');
+export const addNew = document.getElementById('addbook');
+export const contact = document.getElementById('contact');
+export const titulo = document.getElementById('titulo');
+export const autor = document.getElementById('autor');
+export const addBtn = document.getElementById('btn');
+export const dataBooks = JSON.parse(localStorage.getItem('book')) || [];
