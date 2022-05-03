@@ -1,4 +1,6 @@
-import {addNew, titulo, autor, addBtn, dataBooks} from "./variables.js";
+import { 
+  addNew, titulo, autor, addBtn, dataBooks 
+} from './variables.js';
 
 export default class Libro {
   constructor(title, author) {
@@ -16,7 +18,7 @@ export default class Libro {
     dataBooks.push(libro);
     localStorage.setItem('book', JSON.stringify(dataBooks));
   }
-};
+}
 
 addBtn.addEventListener('click', () => {
   const libro = new Libro(titulo.value, autor.value);

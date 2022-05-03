@@ -8,4 +8,4 @@ export const contact = document.getElementById('contact');
 export const titulo = document.getElementById('titulo');
 export const autor = document.getElementById('autor');
 export const addBtn = document.getElementById('btn');
-export let dataBooks = JSON.parse(localStorage.getItem('book')) || [];
+export const dataBooks = JSON.parse(localStorage.getItem('book')) || [];

@@ -1,11 +1,9 @@
-import { dataBooks, books} from "./variables.js";
-import Libro from "./libro.js";
+import { dataBooks, books } from './variables.js';
+import Libro from './libro.js';
 
 const printList = () => {
   const libro = new Libro();
   books.innerHTML = null;
-  if (localStorage.getItem('book')) {
-  }
   for (let i = 0; i < dataBooks.length; i += 1) {
     const bookStorage = document.createElement('div');
     const bookInfo = document.createElement('p');

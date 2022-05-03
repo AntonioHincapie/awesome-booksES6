@@ -1,6 +1,8 @@
-import startTime from "./modules/clock.js";
-import {booksBtn, addBookbtn, contactBtn, containerBooks, addNew, contact} from "./modules/variables.js";
-import printList from "./modules/bookslist.js";
+import startTime from './modules/clock.js';
+import { 
+  booksBtn, addBookbtn, contactBtn, containerBooks, addNew, contact 
+} from './modules/variables.js';
+import printList from './modules/bookslist.js';
 
 booksBtn.addEventListener('click', () => {
   containerBooks.style.display = 'flex';

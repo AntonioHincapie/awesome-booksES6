@@ -3,7 +3,7 @@ const checkTime = (i) => {
     i = `0${i}`;
   }
   return i;
-}
+};
 
 const startTime = () => {
   const today = new Date();
@@ -26,6 +26,6 @@ const startTime = () => {
   const date = `${curWeekDay}, ${curDay} ${curMonth} ${curYear}`;
   document.getElementById('date').innerHTML = date;
   setTimeout(() => { startTime(); }, 1000);
-}
+};
 
 export default startTime;
