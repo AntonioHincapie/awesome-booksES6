@@ -1,6 +1,6 @@
 import startTime from './modules/clock.js';
-import { 
-  booksBtn, addBookbtn, contactBtn, containerBooks, addNew, contact 
+import {
+  booksBtn, addBookbtn, contactBtn, containerBooks, addNew, contact,
 } from './modules/variables.js';
 import printList from './modules/bookslist.js';
 

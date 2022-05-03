@@ -1,5 +1,5 @@
-import { 
-  addNew, titulo, autor, addBtn, dataBooks 
+import {
+  addNew, titulo, autor, addBtn, dataBooks,
 } from './variables.js';
 
 export default class Libro {
