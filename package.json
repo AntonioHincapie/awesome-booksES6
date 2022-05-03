@@ -1,12 +1,31 @@
 {
   "name": "awesome-bookses6",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this project, I will restructure my Awesome books app code. The goal is to make it more organized by using modules. I will also practice the ES6 syntax that I have learned.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioHincapie/awesome-booksES6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonioHincapie/awesome-booksES6/issues"
+  },
+  "homepage": "https://github.com/AntonioHincapie/awesome-booksES6#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.1.12",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
 }
