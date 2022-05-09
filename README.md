@@ -14,7 +14,11 @@ In this project, we will build a basic website that allows users to add/remove b
 
 ## Live Demo
 
-[Awesome_Books](#)
+[Awesome_Books](https://antoniohincapie.github.io/awesome-booksES6/)
+
+## Source
+
+[Awesome_Books](https://github.com/AntonioHincapie/awesome-booksES6)
 
 ## Authors
 
